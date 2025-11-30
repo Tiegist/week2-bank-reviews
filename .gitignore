@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Reference documents (keep locally but don't commit)
+*.docx
+*.pptx
+*.pdf
+
+# Data files
+data/raw/
+data/processed/*.csv
+data/processed/*.json
+*.db
+*.sqlite
+
+# Environment variables
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Reports (keep structure, ignore generated)
+reports/*.pdf
+reports/*.html
+
+# Logs
+*.log
+logs/
+
+# PostgreSQL
+*.sql.backup
+
